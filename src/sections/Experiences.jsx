@@ -4,9 +4,9 @@ import { experiences } from '../constants'
 
 const Experiences = () => {
   return (
-    <section className='w-full' >
+    <div className='w-full' >
         <Timeline data={experiences}/>
-    </section>
+    </div>
   )
 }
 

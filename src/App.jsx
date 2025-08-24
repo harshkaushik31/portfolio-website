@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Experiences from './sections/Experiences'
+import Testimonials from './sections/Testimonials'
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
         <About/>
         <Projects/>
         <Experiences/>
-        <section className='min-h-screen'/>
+        <Testimonials/>
         <section className='min-h-screen'/>
         <section className='min-h-screen'/>
         {/* testimonials */}
