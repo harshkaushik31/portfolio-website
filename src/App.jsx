@@ -6,6 +6,8 @@ import Projects from './sections/Projects'
 import Experiences from './sections/Experiences'
 import Testimonials from './sections/Testimonials'
 import Contact from './sections/Contact'
+import Footer from './sections/Footer'
+
 
 const App = () => {
   return (
@@ -18,7 +20,7 @@ const App = () => {
         <Experiences/>
         <Testimonials/>
         <Contact/>
-        {/* footer */}
+        <Footer/>
       </div>
     </div>
   )
